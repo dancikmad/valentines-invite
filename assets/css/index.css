@@ -4,12 +4,12 @@ body {
     margin: 0;
     font-family: 'Protest Riot', sans-serif;
 }
-  
+
 canvas {
     display: block;
     vertical-align: bottom;
 }
-  
+
 #particles-js {
     position: absolute;
     width: 100%;
@@ -44,6 +44,12 @@ h1 {
     text-transform: uppercase;
 }
 
+p {
+    font-weight: bold;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
 button {
     padding: 12px 25px 12px 25px;
     border-radius: 5px;
@@ -62,4 +68,3 @@ button {
     background-color: #D61C4E;
     color: white;
 }
-
