@@ -43,7 +43,7 @@ document.querySelectorAll('button').forEach(function (button) {
                         "nb_sides": 3
                     },
                     "image": {
-                        "src": "/images/heart.png",
+                        "src": "https://github.com/dancikmad/valentines-invite/blob/main/images/heart.png?raw=true",
                         "width": 50,
                         "height": 50
                     }
