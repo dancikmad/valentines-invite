@@ -27,7 +27,7 @@ document.querySelectorAll('button').forEach(function (button) {
                     "color": { "value": "#FF0000" },
                     "shape": {
                         "type": "image",
-                        "image": { "src": "../assets/heart.png", "width": 50, "height": 50 }
+                        "image": { "src": "/assets/heart.png", "width": 50, "height": 50 }
                     },
                     "opacity": { "value": 0.5 },
                     "size": { "value": 50, "random": true, "anim": { "enable": true, "speed": 4.8 } },
