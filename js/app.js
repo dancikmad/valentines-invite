@@ -43,7 +43,7 @@ document.querySelectorAll('button').forEach(function (button) {
                         "nb_sides": 3
                     },
                     "image": {
-                        "src": "assets/Heart.png",
+                        "src": "/assets/heart.png",
                         "width": 50,
                         "height": 50
                     }
