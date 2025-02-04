@@ -68,3 +68,54 @@ button {
     background-color: #D61C4E;
     color: white;
 }
+
+/* Responsive Design for Tablets and Mobile Devices */
+@media (max-width: 768px) {
+    /* Reduce font size for smaller screens */
+    h1 {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 2.5rem;
+    }
+
+    /* Adjust buttons' font size */
+    button {
+        font-size: medium;
+        padding: 10px 20px;
+    }
+
+    /* Adjust spacing between buttons */
+    .buttons {
+        gap: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Reduce font size even more for small screens (iPhones) */
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: 2rem;
+    }
+
+    /* Make buttons more touch-friendly */
+    button {
+        font-size: small;
+        padding: 8px 15px;
+    }
+
+    /* Stack buttons vertically on small screens */
+    .buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* Ensure wrapper has some padding on small screens */
+    .wrapper {
+        padding: 15px;
+    }
+}
